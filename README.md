@@ -1,12 +1,14 @@
 #**PRODUCTO FINAL**
-##TARJETA DE CRÉDITO VALIDA
-
+## TARJETA DE CRÉDITO VALIDA
+> Crea una web que pida, por medio de un prompt(), el número de una tarjeta de crédito y confirme su validez según el algoritmo de Luhn. Lee este blog que explica cómo funciona el algoritmo de Luhn.
 ==
 1. Diagrama de Flujo
     1.1 Diagrama de Flujo
-    ![recursos](assets/img-read/recursos.jpg)
+    ####Diagrama de Flujo
+    [DiagramaFlujo](https://github.com/NatalyOC/ProductoFinalCifradoCesar/blob/master/DiagramadeFlujo.docx)
 2. Pseudocódigo
----
+####Pseudocodigo:
+~~~
 SubProceso message <- isValidCard ( num )
 	Para i<-0 Hasta num.length Con Paso 1 Hacer
 		element<-entero(num.charAt(i))
